@@ -289,9 +289,9 @@ jQuery(function ($) {
 
     var fullSlider = new Swiper('.full-slider', {
 
-        // autoplay: {
-        //     delay: 10000,
-        // },
+        autoplay: {
+            delay: 10000,
+        },
         loop: false,
         slidesPerView: 1,
         spaceBetween: 0,
