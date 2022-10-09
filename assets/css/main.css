@@ -4393,7 +4393,6 @@ footer .copyright a:not(.btn) {
     bottom: 0;
     width: auto;
     height: 85%;
-
 }
 
 .slider-3{
@@ -4406,6 +4405,25 @@ footer .copyright a:not(.btn) {
 .slider_body--show{
     display: block;
 }
+.card_services {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: #222F3F;
+    transition-timing-function: cubic-bezier(.25, .25, .75, .75);
+    transition-duration: 0.4s;
+    transition-property: opacity, transform;
+}
+.service-title{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
 
 
 @media(max-width: 1499px) {
