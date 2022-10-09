@@ -4513,14 +4513,7 @@ footer .copyright a:not(.btn) {
         width: auto;
         height: 70%;
     }
-    .hero-image3 {
-        position: absolute;
-        right: -65px;
-        bottom: 0;
-        width: 100%;
-        height: auto;
-    
-    }
+
     
     .slider-3{
         width: 83% !important;
@@ -4611,6 +4604,11 @@ footer .copyright a:not(.btn) {
     opacity: 0.2 !important;
 }
 .hero-image3 {
+    position: absolute;
+    right: -65px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
     opacity: 0.2 !important;
 
 }
