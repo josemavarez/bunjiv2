@@ -353,8 +353,8 @@ jQuery(function ($) {
 
         var midSlider = new Swiper(this, {
 
-            autoplay: midAutoPlay,
-            loop: true,
+            autoplay: false,
+            loop: false,
             slidesPerView: 1,
             spaceBetween: 30,
             breakpoints: {
@@ -368,8 +368,7 @@ jQuery(function ($) {
                 }
             },
             pagination: {
-                el: '.mid-slider .swiper-pagination',
-                clickable: true
+                clickable: false
             }
         })
     })
@@ -456,40 +455,7 @@ jQuery(function ($) {
     })
     console.log(fullSlider)
 })
-    // new function
 
-
-
-
-    (function(){
-        const sliders = [...document.querySelectorAll('.slider_body')];
-        const current_slider = document.querySelectorAll('.swiper-slide');
-
-        const arrowNext = document.querySelector('#after');
-        const arrowBefore = document.querySelector('#before');
-        let value;
-    
-        arrowNext.addEventListener('click', ()=>changePosition(1));
-        arrowBefore.addEventListener('click', ()=>changePosition(-1));
-        function changePosition(change){
-    
-    
-            const currentElement = Number(document.querySelector('.slider_body--show').dataset.id);
-    
-    
-            value = currentElement;
-            value+= change;
-            console.log(value)
-    
-            if( value === 0 || value == sliders.length+1){
-                value = value === 0 ? sliders.length : 1;
-    
-            }
-            sliders[currentElement-1].classList.toggle('slider_body--show');
-            sliders[value-1].classList.toggle('slider_body--show');
-        }
-    })()
-// end new function
 /*----------------------------------------------
 5. Particles
 ----------------------------------------------*/
