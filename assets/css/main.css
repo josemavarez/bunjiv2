@@ -3989,7 +3989,7 @@ footer .copyright a:not(.btn) {
     }
 
     body .highlights:not(.image-right):not(.image-center) .intro {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     body .highlights:not(.image-left) .items .item:last-child {
@@ -4594,7 +4594,7 @@ footer .copyright a:not(.btn) {
 
 .p-about{
     text-align: left;
-    font: normal normal medium 16px/20px Poppins;
+    font-size: 14.4px;
     letter-spacing: -0.01px;
     color: #222F3E;
 }
@@ -4603,7 +4603,7 @@ footer .copyright a:not(.btn) {
 
 }
 .hero-image2 {
-    opacity: 0.2 !important;
+    opacity: 0.14 !important;
 }
 .hero-image3 {
     position: absolute;
@@ -4621,7 +4621,7 @@ footer .copyright a:not(.btn) {
 .full-slider .slide-content .left .description, .no-slider .slide-content .left .description, .full-slider .slide-content .right .description, .no-slider .slide-content .right .description {
     max-width: 780px;
     margin-bottom: -10px;
-    font-size: 0.9rem;
+    font-size: 14.4px;
     color: #222F3E;
 }
 .full-slider.swiper-container-horizontal > .swiper-pagination-bullets {
