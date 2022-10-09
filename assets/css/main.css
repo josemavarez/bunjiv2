@@ -4366,14 +4366,15 @@ footer .copyright a:not(.btn) {
 
 
 .h4-about{
-    font: normal normal 200 26px/39px Poppins;
     color: #58585A !important;
-
+    line-height: 0.8 !important;
+    font-size: 26px;
+    font-weight: 200;
 }
 .h4-about b{
-    font: normal normal 400 26px/39px Poppins;
     color: #58585A;
-
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .p-about{
@@ -4433,7 +4434,7 @@ footer .copyright a:not(.btn) {
 .service-title{
     font-size: 15px;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 5px;
 }
 .services_pp_title{
@@ -4504,14 +4505,14 @@ footer .copyright a:not(.btn) {
     
     
     .h4-about{
-        font: normal normal 200 26px/39px Poppins;
+        font-weight: 200;
         color: #58585A;
-    
+        font-size: 24px;
     }
     .h4-about b{
-        font: normal normal 400 26px/39px Poppins;
+        font-weight: 400;
         color: #58585A;
-    
+        font-size: 24px;
     }
     
     .p-about{
@@ -4599,14 +4600,14 @@ footer .copyright a:not(.btn) {
 
 
 .h4-about{
-    font: normal normal 200 22px/39px Poppins;
+    font-weight: 300;
     color: #58585A;
-
+    font-size: 18px;
 }
 .h4-about b{
-    font: normal normal 400 22px/39px Poppins;
+    font-weight: 500;
     color: #58585A;
-
+    font-size: 18px;
 }
 
 .p-about{
