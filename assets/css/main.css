@@ -4512,7 +4512,7 @@ footer .copyright a:not(.btn) {
 
 @media (max-width: 767px){
 .title-1{
-    font: normal normal 200 80px Poppins;
+    font: normal normal 200 60px Poppins;
     letter-spacing: -5.2px;
     color: #E00729 !important;
     opacity: 1;
@@ -4520,7 +4520,7 @@ footer .copyright a:not(.btn) {
 }
 
 .title-2{
-    font: normal normal 400 70px Poppins;
+    font: normal normal 400 50px Poppins;
     letter-spacing: -5.2px;
     color: #58575A !important;
     opacity: 1;
@@ -4528,7 +4528,7 @@ footer .copyright a:not(.btn) {
 }
 
 .title-3{
-    font: normal normal 900 80px Poppins;
+    font: normal normal 900 60px Poppins;
     color: #062448 !important;
     opacity: 1;
     line-height: 0.8;
