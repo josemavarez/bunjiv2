@@ -2022,7 +2022,7 @@ header .navbar-expand .navbar-brand img {
 .no-slider .slide-content .right .description {
     max-width: 700px;
     margin-bottom: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #222F3E;
 }
 
@@ -4374,6 +4374,10 @@ footer .copyright a:not(.btn) {
     letter-spacing: -0.01px;
     color: #222F3E;
 }
+.hero-image {
+
+    z-index: 10;
+}
 .hero-image2 {
     /* position: absolute;
     right: 10%;
@@ -4385,7 +4389,7 @@ footer .copyright a:not(.btn) {
     top: 100px;
     width: auto;
     height: 70%;
-    z-index: 20;
+    z-index: 10;
 }
 .hero-image3 {
     position: absolute;
@@ -4393,6 +4397,7 @@ footer .copyright a:not(.btn) {
     bottom: 0;
     width: auto;
     height: 85%;
+    z-index: 10;
 }
 
 .slider-3{
