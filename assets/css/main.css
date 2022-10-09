@@ -4341,7 +4341,9 @@ footer .copyright a:not(.btn) {
     background-position: center;
     margin-top: -150px;
 }
-
+.slide-content{
+    z-index: 20;
+}
 
 .title-about{
     font: normal normal 100 45px/39px Poppins;
@@ -4515,8 +4517,8 @@ footer .copyright a:not(.btn) {
         position: absolute;
         right: -65px;
         bottom: 0;
-        width: auto;
-        height: 80%;
+        width: 100%;
+        height: auto;
     
     }
     
