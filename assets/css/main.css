@@ -4037,7 +4037,7 @@ footer .copyright a:not(.btn) {
     body .full-slider .slide-content .inner .description, 
     body .no-slider .slide-content .inner .description {
         max-width: 100%;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }  
 
     body .full-slider .slide-content .inner .description p, 
@@ -4591,12 +4591,12 @@ footer .copyright a:not(.btn) {
 }
 
 .slider-3{
-    width: 83% !important;
+    width: 100% !important;
 }
 .full-slider .slide-content .left .description, .no-slider .slide-content .left .description, .full-slider .slide-content .right .description, .no-slider .slide-content .right .description {
     max-width: 780px;
     margin-bottom: -10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #222F3E;
 }
 }
