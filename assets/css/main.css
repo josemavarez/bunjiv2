@@ -1489,7 +1489,7 @@ header .navbar-expand .navbar-brand i.version-number {
 }
 
 header .navbar-expand .navbar-brand img {
-    height: var(--nav-brand-height);
+    height: 50px;
 }
 
 .navbar-expand .navbar-nav .nav-item {
