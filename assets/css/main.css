@@ -4430,8 +4430,10 @@ footer .copyright a:not(.btn) {
     font-weight: 600;
     margin-bottom: 5px;
 }
-
-
+.services_pp_title{
+    color: white;
+    font-weight: 200;
+}
 
 @media(max-width: 1499px) {
     .title-1{
