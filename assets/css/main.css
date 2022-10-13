@@ -5813,7 +5813,7 @@ footer .copyright a:not(.btn) {
     }
 
     .hero-image-contact-mobile {
-        display: none;
+        display: none !important;
     }
 
     .hero-contact {
