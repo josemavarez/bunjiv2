@@ -236,10 +236,10 @@
                 _this.removeClass('grid-loading');
                 _this.removeClass('grid-loading-white');
                 _this.isotope({
-                    layoutMode: 'masonry',
+                    layoutMode: '',
                     itemSelector: '.grid-item',
-                    percentPosition: true,
-                    stagger: 0,
+                    percentPosition: false,
+                    stagger: 1,
                     masonry: {
                         columnWidth: '.grid-sizer',
                     }

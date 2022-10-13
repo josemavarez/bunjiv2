@@ -378,7 +378,7 @@ jQuery(function ($) {
         if($(this).data('perview')) {
             var midSimplePerView = $(this).data('perview');
         } else {
-            midSimplePerView = 3;
+            midSimplePerView = 4;
         }
 
         if($(this).data('autoplay') && $(this).data('autoplay') == true) {
@@ -392,7 +392,7 @@ jQuery(function ($) {
             autoplay: midSimpleAutoPlay,
             loop: false,
             centerInsufficientSlides: true,
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 30,
             breakpoints: {
                 767: {
