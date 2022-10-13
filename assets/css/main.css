@@ -254,7 +254,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+.text-primary-red{
+    color: #E00729;
+}
 /* #endregion Reset */
 
 /*----------------------------------------------
