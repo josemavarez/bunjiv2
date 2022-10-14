@@ -5629,8 +5629,39 @@ footer .copyright a:not(.btn) {
 .mobile-np{
     padding-bottom: 100px;
 }
-
-
+.img-contact--1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%;
+}
+.img-contact--2{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 18%;
+}
+.img-contact-1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+}
+.img-contact-2{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    width: 50%;
+}
+.path-growth{
+    color: #1C171E;
+    font-weight: 500 !important;
+    margin: 8px 0;
+    padding: 0 0;
+}
+.growth{
+    margin-top: 5px;
+}
 
 
 
@@ -5949,6 +5980,30 @@ footer .copyright a:not(.btn) {
         font-size: 1rem;
         color: #222F3E;
     }
+    .img-contact--1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20%;
+    }
+    .img-contact--2{
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        width: 18%;
+    }
+    .img-contact-1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 8%;
+    }
+    .img-contact-2{
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        width: 50%;
+    }
 }
 
 
@@ -6190,5 +6245,29 @@ footer .copyright a:not(.btn) {
     .h2-subtitle-contact {
         color: #576575;
         font-size: 26px;
+    }
+    .img-contact--1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20%;
+    }
+    .img-contact--2{
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        width: 18%;
+    }
+    .img-contact-1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 12%;
+    }
+    .img-contact-2{
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        width: 60%;
     }
 }
