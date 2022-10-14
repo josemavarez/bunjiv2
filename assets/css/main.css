@@ -2593,7 +2593,7 @@ header .navbar-expand .navbar-brand img {
 .swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    margin-top: 35px;
+    margin-top: 5px;
     position: relative;
 }
 
@@ -2608,7 +2608,7 @@ header .navbar-expand .navbar-brand img {
     width: 40px !important;
     height: 5px !important;
     border-radius: 0 !important;
-    background-color: var(--primary-p-color) !important;
+    background-color: #9a9a9a!important;
     border: none !important;
     opacity: 0.25 !important;
     /* ! important is necessary to avoid conflict with the Swipper Slider. */
