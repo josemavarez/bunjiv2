@@ -4267,7 +4267,7 @@ footer .copyright a:not(.btn) {
     border: none;
     border-radius: 0;
     overflow-x: hidden;
-    background-color: var(--primary-bg-color-2);
+    background-color:#fff;
     background-size: cover;
     background-position: center center;
 }
