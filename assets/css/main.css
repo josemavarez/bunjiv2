@@ -6513,8 +6513,8 @@ footer .copyright a:not(.btn) {
         position:initial;
         left: 0;
         bottom: 54%;
-        width: auto;
-        height: 15%;
+        width: 100%;
+        height: auto;
     }
 
     .title-about {
@@ -6591,8 +6591,7 @@ footer .copyright a:not(.btn) {
 
     .hero-w-subtitle {
         width: 100% !important;
-            width: 75% !important;
-            margin-bottom: 0px;
+        margin-bottom: 0px;
 
     }
 
