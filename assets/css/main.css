@@ -5663,9 +5663,30 @@ footer .copyright a:not(.btn) {
     margin-top: 5px;
 }
 
-
-
-
+.testimonials-c{
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    color: #1C171E;
+    font-weight: 600;
+}
+.testimonials-e{
+    margin: 5px 0;
+    font-size: 15px;
+    color: #62627d;
+    font-weight: 500;
+}
+.testimonials-t{
+    margin: 5px 0px;
+    font-size: 14px;
+    color: #62627d;
+    font-weight: 400;
+    margin-bottom: 25px !important;
+}
+.link-nav {
+    margin: 0px; 
+    padding: 5px;
+    line-height: 10px !important;
+}
 
 
 
@@ -6247,16 +6268,13 @@ footer .copyright a:not(.btn) {
         font-size: 26px;
     }
     .img-contact--1{
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 20%;
+    display: none;
     }
     .img-contact--2{
         position: absolute;
         right: 50px;
         top: 50px;
-        width: 18%;
+        width: 20%;
     }
     .img-contact-1{
         position: absolute;
