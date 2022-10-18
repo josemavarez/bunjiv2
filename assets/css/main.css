@@ -3185,12 +3185,7 @@ header .navbar-expand .navbar-brand img {
 .share-list .nav-link i {
     margin: 0;
     font-size: 22px;
-    background-image: -o-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-image: #fff;
 }
 
 .share-list li:first-child i {
@@ -3391,11 +3386,6 @@ header .navbar-expand .navbar-brand img {
 }
 
 .hero-image {
-    /* position: absolute;
-    right: 10%;
-    bottom: 0;
-    width: auto;
-    height: 85%; */
     position: absolute;
     right: 3%;
     top: 100px;
@@ -3502,7 +3492,11 @@ header .navbar-expand .navbar-brand img {
     color: var(--secondary-p-color);
 }
 
-/* #endregion Feature */
+/* #endregion Feature
+
+
+
+*/
 
 /*----------------------------------------------
 8. Widget
@@ -3671,19 +3665,21 @@ header .navbar-expand .navbar-brand img {
 
 .form-control:focus {
     background: no-repeat;
-    color: inherit;
-    outline: none;
     border-color: inherit;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
 }
 
 .form-control.valid {
     border-color: var(--valid-color);
+    border-width: 2px !important;
 }
 
 .form-control.invalid {
     border-color: var(--invalid-color);
+    border-width: 2px !important;
 }
 
 .checkbox-row {
@@ -4705,7 +4701,6 @@ footer .copyright a:not(.btn) {
 
     body header .navbar-expand .navbar-nav a {
         padding: 10px 15px;
-        font-size: 0;
     }
 
     body header .navbar-expand .navbar-nav.action .btn i {
@@ -5709,27 +5704,27 @@ footer .copyright a:not(.btn) {
 
 .hero-image-services {
     position: absolute;
-    right: 0%;
+    right: 10%;
     top: -1%;
     width: auto;
-    height: 70%;
+    height: 100%;
 }
 
 .hero-image-services-2 {
     position: absolute;
-    left: 3%;
-    bottom: 5%;
+    left: 0%;
+    bottom: 0%;
     width: auto;
-    height: 80%;
+    height: 60%;
     z-index: 10;
 }
 
 .hero-image-specialties {
     position: absolute;
-    right: 0%;
-    top: 20%;
+    right: 8%;
+    top: 25%;
     width: auto;
-    height: 50%;
+    height: 60%;
 }
 
 .hero-image-specialties-2 {
@@ -5901,22 +5896,21 @@ footer .copyright a:not(.btn) {
     color: #222F3E;
 }
 
-.hero-image {
-
+.hero-image-1 {
+    position: absolute;
+    right: 12%;
+    top: 74px;
+    width: auto;
+    height: 105%;
     z-index: 10;
 }
 
 .hero-image2 {
-    /* position: absolute;
-    right: 10%;
-    bottom: 0;
-    width: auto;
-    height: 85%; */
     position: absolute;
-    right: 3%;
+    right: 10%;
     top: 100px;
     width: auto;
-    height: 70%;
+    height: 82%;
     z-index: 10;
 }
 
@@ -6094,7 +6088,9 @@ footer .copyright a:not(.btn) {
     bottom: 5%;
     width: 90%;
 }
-
+.services-h1 {
+    line-height: 65px !important;
+}
 
 
 @media(max-width: 1499px) {
@@ -6215,16 +6211,16 @@ footer .copyright a:not(.btn) {
 
     .hero-image-services {
         position: absolute;
-        right: 0%;
+        right: 5%;
         top: -1%;
         width: auto;
-        height: 70%;
+        height: 100%;
     }
 
     .hero-image-services-2 {
         position: absolute;
         left: 0;
-        bottom: 5%;
+        bottom: 0%;
         width: auto;
         height: 50%;
         z-index: 10;
@@ -6232,10 +6228,10 @@ footer .copyright a:not(.btn) {
 
     .hero-image-specialties {
         position: absolute;
-        right: 0%;
-        top: 20%;
+        right: 5%;
+        top: 25%;
         width: auto;
-        height: 50%;
+        height: 60%;
     }
 
     .hero-image-specialties-2 {
@@ -6243,9 +6239,9 @@ footer .copyright a:not(.btn) {
         left: 0;
         bottom: 0;
         width: auto;
-        height: 39%;
+        height: 20%;
         z-index: 10;
-        opacity: 0.5 !important;
+        opacity: 0.3 !important;
     }
 
     .hero-image-portfolio {
@@ -6389,10 +6385,10 @@ footer .copyright a:not(.btn) {
         width: auto;
         height: 85%; */
         position: absolute;
-        right: 3%;
+        right: 8%;
         top: 100px;
         width: auto;
-        height: 70%;
+        height: 75%;
     }
 
 
@@ -6550,7 +6546,7 @@ footer .copyright a:not(.btn) {
         color: #222F3E;
     }
 
-    .hero-image {
+    .hero-image-1 {
         opacity: 0.2 !important;
 
     }
@@ -6657,7 +6653,7 @@ footer .copyright a:not(.btn) {
         opacity: 0.2 !important;
     }
     .specialties-h1 {
-        line-height: 45px !important;
+        line-height: 42px !important;
     }
     .hero-image-contact-web{
         display: none !important;
