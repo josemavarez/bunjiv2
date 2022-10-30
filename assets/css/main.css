@@ -285,8 +285,6 @@ table {
 ::-moz-selection {
     background: rgba(166, 175, 189, 0.3);
 }
-
-
 *,
 *:after,
 *:before {
@@ -3021,7 +3019,8 @@ header .navbar-expand .navbar-brand img {
 }
 
 .card:hover .share-list i {
-    color: #f5f5f5;
+    color: #040035;
+    text-shadow: 0px 0px 2px #01010187;
 }
 
 .card.featured:before {
@@ -3493,8 +3492,6 @@ header .navbar-expand .navbar-brand img {
 }
 
 /* #endregion Feature
-
-
 
 */
 
@@ -4409,12 +4406,6 @@ footer .copyright a:not(.btn) {
 }
 
 /* #endregion Keyframe */
-
-
-
-
-
-
 /*----------------------------------------------
 16. All Media Queries
 ----------------------------------------------*/
@@ -5040,36 +5031,6 @@ footer .copyright a:not(.btn) {
 
 /* #endregion All Media Queries */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bg-purple-trans {
     background-color: #062448b6 !important;
 }
@@ -5625,10 +5586,6 @@ footer .copyright a:not(.btn) {
             transform: translateY(-10px)
 }
 
-
-
-
-
 /* #nuevos_cambios */
 
 .title-1 {
@@ -5687,10 +5644,10 @@ footer .copyright a:not(.btn) {
 
 .hero-image-about {
     position: absolute;
-    right: -3%;
-    top: -15%;
+    right: 5%;
+    top: 10%;
     width: auto;
-    height: 60%;
+    height: 15%;
 }
 
 .hero-image-about-2 {
@@ -5874,8 +5831,6 @@ footer .copyright a:not(.btn) {
     color: #58585A !important;
     margin: 0 !important;
 }
-
-
 .h4-about {
     color: #58585A !important;
     line-height: 0.8 !important;
@@ -5898,16 +5853,18 @@ footer .copyright a:not(.btn) {
 
 .hero-image-1 {
     position: absolute;
-    right: 12%;
-    top: 74px;
+    right: 15%;
+    top: 30px;
+    max-width: max-content;
     width: auto;
-    height: 105%;
+    height: 70%;
     z-index: 10;
+    object-fit: cover;
 }
 
 .hero-image2 {
     position: absolute;
-    right: 10%;
+    right: 15%;
     top: 100px;
     width: auto;
     height: 82%;
@@ -5974,19 +5931,13 @@ footer .copyright a:not(.btn) {
     font-weight: 200;
     text-transform: uppercase;
 }
-
-
 .cta-contact {
     margin-top: 150px;
 }
 
-
-
 .section-4 {
     background-image: ;
 }
-
-
 .case_study {
     font-size: 16px;
     color: white;
@@ -6034,15 +5985,17 @@ footer .copyright a:not(.btn) {
 }
 .img-contact-1{
     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 10%;
+    right: 0;
+    bottom: -10px;
+    width: 100%;
+    display: none;
 }
 .img-contact-2{
     position: absolute;
     right: 0;
     bottom: -10px;
-    width: 50%;
+    width: 100%;
+    display: block;
 }
 .path-growth{
     color: #1C171E;
@@ -6091,8 +6044,18 @@ footer .copyright a:not(.btn) {
 .services-h1 {
     line-height: 65px !important;
 }
-
-
+.metodologia-a {
+    position: absolute;
+    bottom: 0%;
+    width: 25%;
+    right: 0%;
+}
+.metodologia-b {
+    position: absolute;
+    top: 0;
+    width: 20%;
+    left: 0%;
+}
 @media(max-width: 1499px) {
     .title-1 {
         font: normal normal 100 80px Poppins;
@@ -6305,34 +6268,6 @@ footer .copyright a:not(.btn) {
     .content-services-bot {
         padding: 5% 5%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .section-about {
         position: relative;
         width: 100%;
@@ -6343,8 +6278,6 @@ footer .copyright a:not(.btn) {
         background-position: center;
         margin-top: -50px;
     }
-
-
     .title-about {
         font: normal normal 100 45px/39px Poppins;
         color: #E00729;
@@ -6357,8 +6290,6 @@ footer .copyright a:not(.btn) {
         color: #58585A;
         margin: 0 !important;
     }
-
-
     .h4-about {
         font-weight: 200;
         color: #58585A;
@@ -6390,8 +6321,6 @@ footer .copyright a:not(.btn) {
         width: auto;
         height: 75%;
     }
-
-
     .slider-3 {
         width: 83% !important;
     }
@@ -6419,19 +6348,19 @@ footer .copyright a:not(.btn) {
     }
     .img-contact-1{
         position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 8%;
+        right: 0;
+        bottom: -10px;
+        width: 100%;
+        display: block;
     }
     .img-contact-2{
         position: absolute;
         right: 0;
         bottom: -10px;
-        width: 50%;
+        width: 100%;
+        display: none;
     }
 }
-
-
 
 @media (max-width: 767px) {
     .title-1 {
@@ -6447,7 +6376,7 @@ footer .copyright a:not(.btn) {
         letter-spacing: -5.2px;
         color: #58575A !important;
         opacity: 1;
-        line-height: 0px;
+        line-height: 0.8;
     }
 
     .title-3 {
@@ -6525,8 +6454,6 @@ footer .copyright a:not(.btn) {
         color: #58585A;
         margin: 0 !important;
     }
-
-
     .h4-about {
         font-weight: 300;
         color: #58585A;
@@ -6547,8 +6474,15 @@ footer .copyright a:not(.btn) {
     }
 
     .hero-image-1 {
-        opacity: 0.2 !important;
-
+            opacity: 0.2 !important;
+            position: absolute;
+            right: 0%;
+            top: 74px;
+            max-width: max-content;
+            width: auto;
+            height: 70%;
+            z-index: 10;
+            object-fit: cover;
     }
 
     .hero-image2 {
@@ -6684,14 +6618,28 @@ footer .copyright a:not(.btn) {
     }
     .img-contact-1{
         position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 12%;
+        right: 0;
+        bottom: -10px;
+        width: 100%;
+        display: none;
     }
     .img-contact-2{
         position: absolute;
         right: 0;
         bottom: -10px;
-        width: 60%;
+        width: 100%;
+        display: block;
+    }
+    .metodologia-a {
+        position: absolute;
+        bottom: 2%;
+        width: 45%;
+        right: 0%;
+    }
+    .metodologia-b {
+        position: absolute;
+        top: 0;
+        width: 30%;
+        left: 0%;
     }
 }
